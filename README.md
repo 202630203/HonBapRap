@@ -8,7 +8,7 @@
 혼밥을 즐기는 사용자들을 위한 식당 추천 및 정보 제공 웹 사이트입니다.
 
 ## 🌐 배포 주소
-- **웹사이트 접속**: [https://202630203.github.io/HonBapRap](https://202630203.github.io/HonBapRap)
+- **웹사이트 접속**: 
 
 ## 🛠 사용 기술 (Tech Stack)
 - **HTML5**
