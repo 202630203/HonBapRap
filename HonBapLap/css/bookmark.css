@@ -1,0 +1,823 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+/* 북마크 전체 배경 */
+.v51_6 {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+/* 좌측 사이드바 레일 */
+.v88_65 {
+  width: 125px;
+  height: 877px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 146px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v88_66 {
+  width: 56px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 954px;
+  left: 56px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v88_67 {
+  width: 74px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 885px;
+  left: 28px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* 좌측 프로필 이미지 (잘림 방지) */
+.v88_68 {
+  width: 100px;
+  height: 100px;
+  background: url("../assets/bookmark/images/v88_68.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 782px;
+  left: 12px;
+  border-radius: 50%;
+}
+
+.v88_69 {
+  width: 47px;
+  height: 50px;
+  background: url("../assets/bookmark/images/v88_69.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 954px;
+  left: 9px;
+  overflow: hidden;
+}
+
+/* 상단 제어바 */
+.v56_143,
+.v56_175 {
+  width: 100%;
+  height: 25px;
+  background: rgba(109,109,109,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+/* 사이드바 아이콘들 */
+.v56_146 {
+  width: 77px;
+  height: 77px;
+  background: url("../assets/bookmark/images/v56_146.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 189px;
+  left: 23px;
+  overflow: hidden;
+}
+
+.v56_147 {
+  width: 77px;
+  height: 77px;
+  background: url("../assets/bookmark/images/v56_147.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 318px;
+  left: 23px;
+  overflow: hidden;
+}
+
+.v56_148 {
+  width: 77px;
+  height: 77px;
+  background: url("../assets/bookmark/images/v56_148.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 435px;
+  left: 23px;
+  overflow: hidden;
+}
+
+/* 상단 원형 서클 버튼 */
+.v56_150,
+.v56_182 {
+  width: 17px;
+  height: 17px;
+  background: rgba(255,56,60,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  border-radius: 50%;
+}
+
+.v56_151,
+.v56_183 {
+  width: 17px;
+  height: 17px;
+  background: rgba(255,204,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 31px;
+  border-radius: 50%;
+}
+
+.v56_152,
+.v56_184 {
+  width: 17px;
+  height: 17px;
+  background: rgba(52,199,89,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 56px;
+  border-radius: 50%;
+}
+
+.v56_155 {
+  width: 56px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 266px;
+  left: 31px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v56_156 {
+  width: 56px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 501px;
+  left: 31px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v56_157 {
+  width: 84px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 395px;
+  left: 20px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* ==========================================
+   북마크 카드 1행 (상단 3개)
+   ========================================== */
+
+/* 북마크 카드 1 */
+.v81_2 {
+  width: 375px;
+  height: 399px;
+  background: url("../assets/bookmark/images/v81_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 182px;
+  left: 162px;
+  overflow: hidden;
+}
+
+.v66_218 {
+  width: 375px;
+  height: 390px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v69_228 {
+  width: 350px;
+  height: 320px;
+  background: url("../assets/bookmark/images/v69_228.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v72_240 {
+  width: 213px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 319px;
+  left: 74px;
+  font-family: Cute Font;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* 북마크 카드 2 */
+.v81_4 {
+  width: 375px;
+  height: 399px;
+  background: url("../assets/bookmark/images/v81_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 182px;
+  left: 599px;
+  overflow: hidden;
+}
+
+.v66_222 {
+  width: 375px;
+  height: 390px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v69_232 {
+  width: 350px;
+  height: 320px;
+  background: url("../assets/bookmark/images/v69_232.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 13px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v72_247 {
+  width: 178px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 319px;
+  left: 99px;
+  font-family: Cute Font;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* 북마크 카드 3 */
+.v81_6 {
+  width: 375px;
+  height: 399px;
+  background: url("../assets/bookmark/images/v81_6.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 182px;
+  left: 1028px;
+  overflow: hidden;
+}
+
+.v66_225 {
+  width: 375px;
+  height: 390px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v69_230 {
+  width: 350px;
+  height: 320px;
+  background: url("../assets/bookmark/images/v69_230.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 13px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v72_249 {
+  width: 213px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 319px;
+  left: 81px;
+  font-family: Cute Font;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* ==========================================
+   북마크 카드 2행 (하단 3개)
+   ========================================== */
+
+/* 북마크 카드 4 */
+.v81_3 {
+  width: 375px;
+  height: 398px;
+  background: url("../assets/bookmark/images/v81_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 605px;
+  left: 162px;
+  overflow: hidden;
+}
+
+.v66_220 {
+  width: 375px;
+  height: 390px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v69_234 {
+  width: 350px;
+  height: 320px;
+  background: url("../assets/bookmark/images/v69_234.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v72_241 {
+  width: 140px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 318px;
+  left: 111px;
+  font-family: Cute Font;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* 북마크 카드 5 */
+.v81_5 {
+  width: 375px;
+  height: 398px;
+  background: url("../assets/bookmark/images/v81_5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 605px;
+  left: 599px;
+  overflow: hidden;
+}
+
+.v66_223 {
+  width: 375px;
+  height: 390px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v69_236 {
+  width: 350px;
+  height: 320px;
+  background: url("../assets/bookmark/images/v69_236.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 13px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v72_243 {
+  width: 259px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 318px;
+  left: 60px;
+  font-family: Cute Font;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* 북마크 카드 6 */
+.v81_7 {
+  width: 375px;
+  height: 398px;
+  background: url("../assets/bookmark/images/v81_7.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 605px;
+  left: 1028px;
+  overflow: hidden;
+}
+
+.v66_226 {
+  width: 375px;
+  height: 390px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v69_238 {
+  width: 350px;
+  height: 320px;
+  background: url("../assets/bookmark/images/v69_238.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 13px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v72_245 {
+  width: 158px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 318px;
+  left: 109px;
+  font-family: Cute Font;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* ==========================================
+   상단 헤더 및 검색창
+   ========================================== */
+
+.v88_86 {
+  width: 100%;
+  height: 125px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 24px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v88_87 {
+  width: 143px;
+  height: 105px;
+  background: url("../assets/bookmark/images/v88_87.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 24px;
+  left: 9px;
+  overflow: hidden;
+}
+
+.v88_88 {
+  width: 262px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 20px;
+  left: 126px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v88_89 {
+  width: 235px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 71px;
+  left: 126px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v88_90 {
+  width: 689px;
+  height: 80px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 47px;
+  left: 457px;
+  border: 1px solid rgba(0,0,0,1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.v88_91 {
+  width: 84px;
+  height: 91px;
+  background: url("../assets/bookmark/images/v88_91.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 45px;
+  left: 457px;
+  overflow: hidden;
+}
+
+.v88_92 {
+  width: 309px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 67px;
+  left: 541px;
+  font-family: Farro;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* ==========================================
+   북마크 카드별 개별 아이콘 & 버튼
+   ========================================== */
+
+/* 카드 1 요소 */
+.v88_114 {
+  width: 60px;
+  height: 60px;
+  background: url("../assets/bookmark/images/v88_114.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 193px;
+  left: 463px;
+  overflow: hidden;
+}
+
+.v88_115 {
+  width: 89px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 247px;
+  left: 484px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* 카드 2 요소 */
+.v88_117 {
+  width: 60px;
+  height: 60px;
+  background: url("../assets/bookmark/images/v88_117.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 193px;
+  left: 901px;
+  overflow: hidden;
+}
+
+.v88_118 {
+  width: 89px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 247px;
+  left: 922px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* 카드 3 요소 */
+.v88_129 {
+  width: 60px;
+  height: 60px;
+  background: url("../assets/bookmark/images/v88_129.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 194px;
+  left: 1331px;
+  overflow: hidden;
+}
+
+.v88_130 {
+  width: 89px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 248px;
+  left: 1352px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* 카드 4 요소 */
+.v88_120 {
+  width: 60px;
+  height: 60px;
+  background: url("../assets/bookmark/images/v88_120.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 617px;
+  left: 463px;
+  overflow: hidden;
+}
+
+.v88_121 {
+  width: 89px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 671px;
+  left: 484px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* 카드 5 요소 */
+.v88_123 {
+  width: 60px;
+  height: 60px;
+  background: url("../assets/bookmark/images/v88_123.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 618px;
+  left: 901px;
+  overflow: hidden;
+}
+
+.v88_124 {
+  width: 89px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 672px;
+  left: 922px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* 카드 6 요소 */
+.v88_126 {
+  width: 60px;
+  height: 60px;
+  background: url("../assets/bookmark/images/v88_126.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 616px;
+  left: 1331px;
+  overflow: hidden;
+}
+
+.v88_127 {
+  width: 89px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 670px;
+  left: 1352px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}

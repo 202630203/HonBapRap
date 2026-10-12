@@ -1,0 +1,580 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+.v51_5 {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v55_2 {
+  width: 100%;
+  height: 25px;
+  background: rgba(109,109,109,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v55_3 {
+  width: 100%;
+  height: 125px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 24px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v55_4 {
+  width: 125px;
+  height: 877px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 145px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v55_7 {
+  width: 77px;
+  height: 77px;
+  background: url("../assets/index/images/v55_7.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 189px;
+  left: 23px;
+  overflow: hidden;
+}
+
+.v55_8 {
+  width: 77px;
+  height: 77px;
+  background: url("../assets/index/images/v55_8.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 318px;
+  left: 23px;
+  overflow: hidden;
+}
+
+.v55_9 {
+  width: 77px;
+  height: 77px;
+  background: url("../assets/index/images/v55_9.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 435px;
+  left: 23px;
+  overflow: hidden;
+}
+
+.v56_17 {
+  width: 143px;
+  height: 105px;
+  background: url("../assets/index/images/v56_17.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 24px;
+  left: 9px;
+  overflow: hidden;
+}
+
+.v56_19 {
+  width: 17px;
+  height: 17px;
+  background: rgba(255,56,60,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  border-radius: 50%;
+}
+
+.v56_20 {
+  width: 17px;
+  height: 17px;
+  background: rgba(255,204,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 31px;
+  border-radius: 50%;
+}
+
+.v56_22 {
+  width: 17px;
+  height: 17px;
+  background: rgba(52,199,89,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 56px;
+  border-radius: 50%;
+}
+
+.v56_29 {
+  width: 262px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 20px;
+  left: 126px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v56_30 {
+  width: 235px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 71px;
+  left: 126px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v56_31 {
+  width: 56px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 266px;
+  left: 31px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v56_38 {
+  width: 56px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 501px;
+  left: 31px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v88_21 {
+  width: 56px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 954px;
+  left: 56px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v88_19 {
+  width: 74px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 885px;
+  left: 28px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 28px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v56_32 {
+  width: 84px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 395px;
+  left: 20px;
+  font-family: Bagel Fat One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v56_45 {
+  width: 31px;
+  height: 136px;
+  background: url("../assets/index/images/v56_45.png");
+  opacity: 1;
+  position: absolute;
+  top: 590px;
+  left: 465px;
+}
+
+.v56_46 {
+  width: 32px;
+  height: 135px;
+  background: url("../assets/index/images/v56_46.png");
+  opacity: 1;
+  position: absolute;
+  top: 590px;
+  left: 493px;
+}
+
+.name {
+  color: #fff;
+}
+
+.v78_279 {
+  width: 653px;
+  color: rgba(255,228,228,1);
+  position: absolute;
+  top: 168px;
+  left: 155px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v78_288 {
+  width: 192px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 540px;
+  left: 233px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v78_289 {
+  width: 375px;
+  height: 390px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 619px;
+  left: 142px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* 카드 이미지 1 (제육볶음 - 중앙 정렬) */
+.v78_290 {
+  width: 350px;
+  height: 320px;
+  background: url("../assets/index/images/v78_290.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 629px;
+  left: 154px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v78_291 {
+  width: 140px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 937px;
+  left: 253px;
+  font-family: Cute Font;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v78_293 {
+  width: 192px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 540px;
+  left: 692px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v78_294 {
+  width: 375px;
+  height: 390px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 619px;
+  left: 601px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* 카드 이미지 2 (인물 - 상단 정렬) */
+.v78_295 {
+  width: 350px;
+  height: 320px;
+  background: url("../assets/index/images/v78_295.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 629px;
+  left: 613px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v78_296 {
+  width: 204px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 937px;
+  left: 687px;
+  font-family: Cute Font;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v78_298 {
+  width: 192px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 540px;
+  left: 1131px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v78_299 {
+  width: 375px;
+  height: 390px;
+  background: rgba(241,225,200,1);
+  opacity: 1;
+  position: absolute;
+  top: 619px;
+  left: 1040px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* 카드 이미지 3 (인물 - 상단 정렬) */
+.v78_300 {
+  width: 350px;
+  height: 320px;
+  background: url("../assets/index/images/v78_300.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 629px;
+  left: 1052px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.v78_301 {
+  width: 213px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 937px;
+  left: 1121px;
+  font-family: Cute Font;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v88_7 {
+  width: 63px;
+  height: 60px;
+  background: url("../assets/index/images/v88_7.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 631px;
+  left: 900px;
+  overflow: hidden;
+}
+
+.v88_8 {
+  width: 60px;
+  height: 60px;
+  background: url("../assets/index/images/v88_8.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 631px;
+  left: 444px;
+  overflow: hidden;
+}
+
+.v88_10 {
+  width: 60px;
+  height: 60px;
+  background: url("../assets/index/images/v88_10.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 632px;
+  left: 1342px;
+  overflow: hidden;
+}
+
+.v88_12 {
+  width: 89px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 685px;
+  left: 465px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v88_16 {
+  width: 89px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 685px;
+  left: 1360px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v88_14 {
+  width: 89px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 685px;
+  left: 897px;
+  font-family: Fascinate Inline;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* 프로필 이미지 (인물 - 상단 정렬) */
+.v88_18 {
+  width: 100px;
+  height: 100px;
+  background: url("../assets/index/images/v88_18.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 782px;
+  left: 12px;
+  border-radius: 50%;
+}
+
+.v88_27 {
+  width: 47px;
+  height: 50px;
+  background: url("../assets/index/images/v88_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 954px;
+  left: 9px;
+  overflow: hidden;
+}
+
+.v88_29 {
+  width: 689px;
+  height: 80px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 47px;
+  left: 457px;
+  border: 1px solid rgba(0,0,0,1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.v88_43 {
+  width: 84px;
+  height: 91px;
+  background: url("../assets/index/images/v88_43.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 45px;
+  left: 457px;
+  overflow: hidden;
+}
+
+.v88_45 {
+  width: 309px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 67px;
+  left: 541px;
+  font-family: Farro;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
