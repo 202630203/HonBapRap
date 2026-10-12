@@ -1,0 +1,28 @@
+# 🍚 혼밥연구소 (HonBapRap)
+
+> 혼자서도 맛있게! 혼밥족을 위한 웹 서비스 프로젝트입니다.
+
+---
+
+## 📌 프로젝트 소개
+혼밥을 즐기는 사용자들을 위한 식당 추천 및 정보 제공 웹 사이트입니다.
+
+## 🌐 배포 주소
+- **웹사이트 접속**: [https://202630203.github.io/HonBapRap](https://202630203.github.io/HonBapRap)
+
+## 🛠 사용 기술 (Tech Stack)
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+
+## 🚀 주요 기능
+- [x] **메인 페이지 (`index.html`)**: 식당 정보 및 메인 서비스 안내
+- [x] **북마크 (`bookmark.html`)**: 관심 있는 식당 저장 기능
+- [x] **마이페이지 (`mypage.html`)**: 사용자 정보 및 관리
+
+## 📁 폴더 구조
+├── assets/          # 이미지 및 정적 파일
+├── css/             # 스타일시트 (index.css 등)
+├── index.html       # 메인 페이지
+├── bookmark.html    # 북마크 페이지
+└── mypage.html      # 마이페이지
