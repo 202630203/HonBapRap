@@ -22,7 +22,11 @@
 
 ## 📁 폴더 구조
 ├── assets/          # 이미지 및 정적 파일
+
 ├── css/             # 스타일시트 (index.css 등)
+
 ├── index.html       # 메인 페이지
+
 ├── bookmark.html    # 북마크 페이지
+
 └── mypage.html      # 마이페이지
